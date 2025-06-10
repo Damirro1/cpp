@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  int age_y;
+ 
+  cout << "Enter your age:";
+  cin>> age_y;
+  int age_m= age_y * 12;
+ 
+  cout<<"Your age in month:"<< age_m<< endl;
+  
+  return 0;
+}

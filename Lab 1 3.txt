@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  const float pi=3.14;
+  float radius;
+  
+  cout << "Enter the radius:"; 
+  cin>>radius;
+  float Area = pi * radius * radius;
+  cout << "The area is " << Area << "." << endl;
+
+  return 0;
+}
